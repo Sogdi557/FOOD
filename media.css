@@ -1,0 +1,21 @@
+@media screen and (max-width: 780px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(50%-20px);
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .card{
+        width: 100%;
+    }
+}
+
+.who_in{
+    display: block;
+    justify-content: space-between;
+    align-items: flex-end;
+}
